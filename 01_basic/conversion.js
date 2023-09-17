@@ -15,8 +15,11 @@ let x=""
 let z="yogesh"
 let y=Boolean(x)
 let h=Boolean(z)
-console.log(typeof y);
-console.log(typeof h);
-console.log(y);        //if we take empty string and change it to boolean then it`s boolean value is false and take any string can convert it to boolean then it`s` boolean value is true
-console.log(h);
+//console.log(typeof y);
+//console.log(typeof h);
+//console.log(y);        //if we take empty string and change it to boolean then it`s boolean value is false and take any string can convert it to boolean then it`s` boolean value is true
+//console.log(h);
+let number=10
+let str=String(number)
+console.log(typeof str);
  
