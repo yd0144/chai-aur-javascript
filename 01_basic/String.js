@@ -62,7 +62,7 @@
 //34-startsWith: ƒ startsWith()
 //35-strike: ƒ strike()
 //36-sub: ƒ sub()  //Deprecated Though some browsers might still support it, it may have already been removed from the relevant web standards
-//37-substr: ƒ substr()
+//37-substr: ƒ substr()  //Deprecated: This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards
 //38-substring: ƒ substring()
 //39-sup: ƒ sup()
 //40-toLocaleLowerCase: ƒ toLocaleLowerCase()
@@ -147,6 +147,11 @@
 // console.log(str.toUpperCase());  //toUpperCase() this method is used to convert our string into uppercase if any letter in string is already in uppercase then it will take as it in uppercase
 
 // *********************** toLowerCase() ******
-let str="Yogesh"
-console.log(str.toLowerCase());  //toLowerCase() this method is used to convert our string into lowercase if any letter in string is already in lowercase then it will take as it in lowercase
+// let str="Yogesh"
+// console.log(str.toLowerCase());  //toLowerCase() this method is used to convert our string into lowercase if any letter in string is already in lowercase then it will take as it in lowercase
 
+// ***************************substring() *******************************
+
+// let str="hello foks i am yogesh"
+// console.log(str.substring(6));   // substring() this method is used to find the substring from the given with 2 parameters 1st is start index and 2nd is end index of substring if it contain only single parameter then it is start to till end string
+// console.log(str.substring(0,10));
