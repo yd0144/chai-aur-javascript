@@ -19,4 +19,3 @@ let a=[1,3,"yogesh","dongare",12.33]
 // console.log(a.length); 
 console.log(Object.keys(a));    //Object.keys(object name)  this method is used to  get array of keys when we take array as object then it will by default take string of number from 0 as keys
 console.log(Object.values(a));    //Object.values(object name) this method is used to take array of values of objects
--
