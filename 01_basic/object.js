@@ -78,3 +78,37 @@ const sym=Symbol("at the rate")   //Here we created symbol for using this as key
 //     }
 //    const {firstname:fN}=obj      //Here we destruture the object because every we not use objectname.property to access the property so we destructure the object and also we can give another name to that property and use it
 //     console.log(fN);
+
+
+
+// probelm statement: check wheter object is empty or non-empty
+ const obj={
+            firstname:"yogesh",
+            lastname:"dongare",
+            age:24,
+            email:"yogesh@google.com",
+            isLoggedIn:"true"
+        }
+//1st way
+// function fun(check){
+//     if(JSON.stringify(check)==="{}"){     //here we check wether our object is empty or not for that we use JSON.stringify() which return "{}" if our array is empty otherwise we take it to else block
+//         return "empty"
+//         }
+//     else{
+//         return "Non-empty"
+//     }
+// }
+// a=fun(obj)
+// console.log(a)
+
+//2nd way
+function fun(check){
+    if(Object.keys(check).length===0){          //here  we take object.key() method to check length of keys if it will return 0 then that object is empty otherwise it is non empty
+        return "empty"
+        }
+    else{
+        return "Non-empty"
+    }
+}
+a=fun(obj)
+console.log(a)
