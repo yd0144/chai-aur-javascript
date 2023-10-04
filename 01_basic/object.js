@@ -66,3 +66,15 @@ const sym=Symbol("at the rate")   //Here we created symbol for using this as key
 // console.log(Object.values(obj));  //Here Object.values(object name) is method is take input as object and return list of values
 // console.log(Object.entries(obj));  // here is method also take input as object and return list of the lists of key values
 // console.log(obj.hasOwnProperty('age'));  //this method is used to check whether entered property is present or not 
+
+//object destructuring
+
+// const obj={
+//         firstname:"yogesh",
+//         lastname:"dongare",
+//         age:24,
+//         email:"yogesh@google.com",
+//         isLoggedIn:"true"
+//     }
+//    const {firstname:fN}=obj      //Here we destruture the object because every we not use objectname.property to access the property so we destructure the object and also we can give another name to that property and use it
+//     console.log(fN);
